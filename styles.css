@@ -9,8 +9,6 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(227, 109, 36);
-    background-size: cover;
-    background-position: center;
     display: grid;
     place-items: center;
 }
@@ -20,11 +18,11 @@
     position:absolute;
     top:3rem;
     left:50%;
-    transform:translateX(-50%);
+    transform:translateX(-50%); /*These above two lines are used to center horizontally*/
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3rem;    
     /* text-align:center; */
 }
 
